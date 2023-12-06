@@ -37,7 +37,7 @@ const getRecipeByNameAndSave = (recipes, name) => {
   if (recipe) {
     savedRecipes.push(recipe);
     console.log(`Recipe "${name}" saved successfully.`);
-    console.log("--------------------------------");
+    console.log("-----------------------------------");
   }
   return recipe;
 };
@@ -57,7 +57,7 @@ const displayMenu = () => {
   console.log("4. Get Recipe by Name - Look up a recipe by its name");
   console.log("5. Get All Ingredients of Saved Recipes - View a compiled list of all ingredients");
   console.log("0. Exit - Exit the recipe management system");
-  console.log("\n--------------------------------------------------\n");
+  console.log("\n-------------------------------------------------\n");
   let choice = prompt("Enter a number (1-5) or 0 to exit: ");
   choice = parseInt(choice, 10);
 
