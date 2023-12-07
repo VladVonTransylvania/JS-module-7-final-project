@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 const fs = require('fs');
 const cakeRecipes = JSON.parse(fs.readFileSync("./cake-recipes.json"));
 
-let savedRecipes = []; // Global array to save selected recipes
+let savedRecipes = []; // Global array to save selected recipes!
 
 // Function to return all unique authors from the recipe list
 const getAllAuthors = (recipes) => {
