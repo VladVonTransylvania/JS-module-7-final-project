@@ -1,5 +1,5 @@
 'use strict';
-
+const prompt = require('prompt-sync')();
 const fs = require('fs');
 const cakeRecipes = JSON.parse(fs.readFileSync("./cake-recipes.json"));
 
